@@ -1,0 +1,184 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+.first-part {
+    text-align: center;
+    background-image: url(images/donation1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    padding: 200px;
+    color: white;
+}
+
+p {
+    font-size: 16px;
+}
+
+.first-part h1 {
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.first-part p {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.button {
+    background-image: linear-gradient(salmon, tomato);
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.second-part {
+    text-align: center;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.second-box-row {
+    height: 100px;
+    width: 150px;
+    border: 1px solid white;
+    margin-left: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    background-color: rgb(240, 234, 234);
+
+}
+
+#color-border {
+    border: 3px solid salmon;
+    background-color: bisque;
+    color: salmon;
+}
+
+.second-box {
+    display: flex;
+    justify-content: center;
+}
+
+.second-line-gap {
+    margin-bottom: 50px;
+}
+
+.input-no-box {
+    border: none;
+    outline: none;
+}
+
+hr {
+    width: 500px;
+}
+
+.third-box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.third-box-row {
+    height: 250px;
+    width: 350px;
+    border: 1px solid rgb(215, 239, 239);
+    margin-left: 20px;
+    padding: 20px;
+    background-color: rgb(215, 239, 239);
+}
+
+#third-second-box {
+    border: 1px solid rgb(246, 201, 196);
+    background-color: rgb(246, 201, 196);
+}
+
+#third-third-box {
+    border: 1px solid bisque;
+    background-color: bisque;
+}
+
+.news-site {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.news-one {
+    width: 20%;
+    padding: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 15px gray;
+    background-color: rgb(231, 198, 183);
+
+
+}
+
+.news-one a {
+    text-decoration: none;
+    color: black;
+}
+
+.news-one img {
+    width: 100%;
+}
+
+.email-section {
+    text-align: center;
+    padding: 70px;
+    background-color: bisque;
+    width: 500px;
+    margin-left: 300px;
+}
+
+.email-section a {
+    background-image: linear-gradient(salmon, tomato);
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    padding: 10px 20px;
+
+    font-size: 16px;
+}
+
+.email-section input {
+    padding: 9px;
+    background-color: rgb(214, 207, 207);
+}
+
+.last-part {
+    text-align: center;
+    color: salmon;
+    background-color: black;
+    padding: 5px;
+
+}
+
+.speach {
+    font-size: 25px;
+}
+
+.copy-name {
+    color: white;
+    font-size: 12px;
+}
