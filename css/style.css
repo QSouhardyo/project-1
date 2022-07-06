@@ -60,10 +60,7 @@ h3 {
     width: 150px;
     border: 1px solid white;
     margin-left: 50px;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 15px;
+    padding: 10px 10px 15px 10px;
     border-radius: 10px;
     background-color: rgb(240, 234, 234);
 
@@ -151,19 +148,21 @@ hr {
     margin-left: 300px;
 }
 
-.email-section a {
-    background-image: linear-gradient(salmon, tomato);
-    text-decoration: none;
+.subs {
+    position: relative;
+    border: none;
+    margin: 0;
+    height: 30px;
+    width: 200px;
+    background-color: rgb(215, 207, 207);
     color: white;
-    font-weight: 900;
-    padding: 10px 20px;
-
-    font-size: 16px;
 }
 
-.email-section input {
-    padding: 9px;
-    background-color: rgb(214, 207, 207);
+#subs-button {
+    left: -5px;
+    background-color: salmon;
+    width: 100px;
+    height: 32px;
 }
 
 .last-part {
@@ -174,7 +173,7 @@ hr {
 
 }
 
-.speach {
+.speech {
     font-size: 25px;
 }
 
